@@ -6,6 +6,19 @@
 | Good Samaritan Hospital | FY2023**
 
 Healthcare Finance • Cost Modeling • Scenario Planning • Executive Analytics
+## Executive Summary (FY2023 | Good Samaritan Hospital)
+
+This project evaluates Medicare DRG profitability and identifies where financial performance is concentrated across Major Diagnostic Categories (MDCs). Using CMS FY2023 DRG weights/LOS benchmarks and hospital cost assumptions (CCR-based cost estimation), the model estimates net margin per discharge and scales results to total net margin and volume. The output is delivered as a Power BI dashboard with scenario modeling to support operational and strategic decision-making.
+
+---
+
+## Key Findings (What leadership should know)
+
+- **Profitability is highly concentrated:** A small number of MDC groups drive a disproportionate share of total net margin, creating **earnings concentration risk** if volumes shift in those categories.
+- **Volume shocks create immediate downside:** In the modeled **8% discharge volume decline**, total margin drops materially, with some MDCs showing higher sensitivity than others—useful for **risk planning and service-line monitoring**.
+- **Length-of-stay efficiency drives margin upside:** A modeled **0.5-day LOS reduction** generates meaningful margin improvement through **cost reduction per admission**, with MDC-level breakdown showing where efficiency efforts yield the greatest financial return.
+- **Actionable focus areas emerge:** The dashboard highlights which MDCs are (1) **high-margin growth candidates**, (2) **high-volume/low-margin targets for efficiency**, and (3) **high-risk concentration areas** that benefit from diversification strategies.
+
 
 ## Dashboard Preview
 
@@ -19,6 +32,10 @@ Healthcare Finance • Cost Modeling • Scenario Planning • Executive Analyti
 
 **What this shows:** Side-by-side scenario modeling of (1) an 8% discharge volume decline and (2) a 0.5-day average length-of-stay reduction. Highlights net margin impact, cost sensitivity, and MDC-level contribution to support leadership decisions on risk mitigation and operational efficiency.
 
+**(Due to Power BI licensing restrictions, the interactive dashboard cannot be shared publicly.  
+The report is available for live walkthroughs or review upon request.)**
+
+---
 
 **1. Project Background & Motivation**
 
@@ -31,13 +48,14 @@ The goal is not just to explain what happened, but to evaluate what could happen
 **2. Analytical Objectives**
 
 
-1- Understand baseline profitability at the DRG and MDC level
+* Understand baseline profitability at the DRG and MDC level
 
-2- Identify concentration risk across service lines
+* Identify concentration risk across service lines
 
-3- Quantify downside exposure under a realistic volume shock
+* Quantify downside exposure under a realistic volume shock
 
-4- Evaluate operational efficiency (LOS reduction) as a margin strategy
+* Evaluate operational efficiency (LOS reduction) as a margin strategy
+
 
 
 **3. Data Sources & Scope**
@@ -145,7 +163,3 @@ Executive-level storytelling
 
 Most importantly, it shows the ability to bridge operations, finance, and strategy in a healthcare context.
 
-Author
-
-Abdulrahman Alali
-Healthcare Finance • Strategy • Analytics
