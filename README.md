@@ -7,6 +7,19 @@
 
 Healthcare Finance • Cost Modeling • Scenario Planning • Executive Analytics
 
+## Dashboard Preview
+
+### Baseline: DRG Profitability (FY2023)
+![DRG Profitability Dashboard](DRG_Profitability_Dashboard.png)
+
+**What this shows:** Executive overview of Medicare DRG profitability, including total net margin, discharge volume, margin concentration, and performance by Major Diagnostic Category (MDC). Designed to quickly identify where margin is generated and where service-line concentration risk exists.
+
+### Scenario Analysis: Volume Shock vs LOS Reduction
+![Scenario Dashboard](Scenario_Dashboard.png)
+
+**What this shows:** Side-by-side scenario modeling of (1) an 8% discharge volume decline and (2) a 0.5-day average length-of-stay reduction. Highlights net margin impact, cost sensitivity, and MDC-level contribution to support leadership decisions on risk mitigation and operational efficiency.
+
+
 **1. Project Background & Motivation**
 
 Hospitals operate in an increasingly volatile financial environment. Medicare reimbursement pressure, labor cost inflation, and unpredictable demand have made traditional volume-based growth strategies less reliable. In this context, healthcare leaders must understand where margin is truly generated, where risk is concentrated, and which operational levers deliver sustainable financial performance.
