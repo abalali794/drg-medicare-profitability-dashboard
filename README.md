@@ -168,7 +168,7 @@ Excel served as the financial modeling layer where CMS inputs were translated in
   - **Scenario 2:** 0.5-day average LOS reduction
 - Produced clean output tables that Power BI consumes
 
- **Power BI — Executive dashboard & decision support**
+ **Power BI — dashboard & decision support**
 Power BI was used to turn model outputs into an executive-facing, interactive dashboard. The report highlights margin concentration, discharge volume patterns, and scenario impacts by Major Diagnostic Category (MDC) to support strategic decision-making.
 
 **What Power BI did**
