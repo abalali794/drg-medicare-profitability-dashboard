@@ -146,20 +146,38 @@ From a leadership perspective, the analysis supports prioritizing operational ef
 
 All findings are presented through Power BI dashboards. They are desighned to surface insights quickly, support drill-down by MDC and DRG, and translate analytics into actionable decisions The dashboards intentionally avoid technical clutter and instead focus on financial implications.
 
+**9. Tools Used (and Why)**
+
+ **Python — Data prep & CMS data integration**
+I used Python to ingest, clean, and transform CMS public datasets (e.g., Medicare Provider Cost Report data and wage index tables). This step ensured the model inputs were consistent and reproducible before building the financial logic and visuals.
+
+**What Python did**
+- Loaded CMS files and standardized column formats (e.g., CCN formatting)
+- Filtered relevant hospitals/records and handled missing values
+- Merged datasets (e.g., Cost Report + Wage Index) and validated joins
+- Derived inputs used in the model (e.g., average cost-to-charge ratio)
+
+ **Excel — Financial model & scenario engine**
+Excel served as the financial modeling layer where CMS inputs were translated into profitability metrics. The workbook calculates net margin per discharge and aggregates results to total margin and volume. It also contains the scenario assumptions and logic used in the dashboard.
+
+**What Excel did**
+- Built DRG-level profitability logic (payment and cost per admission)
+- Modeled cost structure assumptions (fixed cost per admit, variable cost per day)
+- Created scenario levers:
+  - **Scenario 1:** 8% discharge volume decline
+  - **Scenario 2:** 0.5-day average LOS reduction
+- Produced clean output tables that Power BI consumes
+
+ **Power BI — Executive dashboard & decision support**
+Power BI was used to turn model outputs into an executive-facing, interactive dashboard. The report highlights margin concentration, discharge volume patterns, and scenario impacts by Major Diagnostic Category (MDC) to support strategic decision-making.
+
+**What Power BI did**
+- Built KPI cards and MDC-level profitability/volume visuals
+- Enabled drill-down and filtering (e.g., MED vs SURG, MDC group)
+- Compared baseline vs scenario outcomes and surfaced sensitivity/risk
+
 
 **9. Why This Project Matters**
 
-This project was built to reflect real healthcare finance work, not a classroom exercise.
-
-It demonstrates:
-
-CMS-faithful reimbursement logic
-
-Cost structure awareness
-
-Scenario-driven thinking
-
-Executive-level storytelling
-
-Most importantly, it shows the ability to bridge operations, finance, and strategy in a healthcare context.
+This project was built to reflect real healthcare finance work, demonstrating CMS-faithful reimbursement logic, cost structure awareness, scenario-driven thinking, and storytelling. Most importantly, it shows the ability to bridge operations, finance, and strategy in a healthcare context.
 
