@@ -103,6 +103,8 @@ Hospital costs were estimated using Cost-to-Charge Ratios (CCR) derived from CMS
 
   * Variable cost per inpatient day
 
+![Inputs and assumptions](Inputs.png)
+
 **This separation is critical for isolating the financial impact of length-of-stay changes.**
 
 **Centralized Assumptions**
@@ -129,6 +131,8 @@ To assess downside risk, the model simulates an 8% decline in discharge volume a
 
 **Scenario 2: LOS Reduction (0.5 Days)**
 The second scenario evaluates operational efficiency by reducing average length of stay by 0.5 days, affecting only variable costs. There is approximately $1.3M increase in net margin. Margin gains concentrated in circulatory, infectious, and nervous system MDCs. The hospital Strongly achieved financial leverage without increasing volume. The key takeaway from this moedling is that LOS reduction delivers higher returns with lower risk than volume growth.
+
+![Financial scenarios](Financial_Scenarios.png)
 
 **7. Interpretation**
 
