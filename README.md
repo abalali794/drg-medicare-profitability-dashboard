@@ -1,4 +1,4 @@
-# drg-medicare-profitability-dashboard
+# DRG-Medicare-Profitability-Dashboard
 **CMS FY2023 DRG profitability + volume &amp; LOS scenario analysis (Power BI, Excel, Python)**
 
 
