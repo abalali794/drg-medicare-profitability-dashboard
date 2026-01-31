@@ -8,7 +8,7 @@
 Healthcare Finance • Cost Modeling • Scenario Planning • Executive Analytics
 ## Executive Summary (FY2023 | Good Samaritan Hospital)
 
-This project evaluates Medicare DRG profitability and identifies where financial performance is concentrated across Major Diagnostic Categories (MDCs). Using CMS FY2023 DRG weights/LOS benchmarks and hospital cost assumptions (CCR-based cost estimation), the model estimates net margin per discharge and scales results to total net margin and volume. The output is delivered as a Power BI dashboard with scenario modeling to support operational and strategic decision-making.
+This project evaluates Medicare DRG profitability and identifies where financial performance is concentrated across Major Diagnostic Categories (MDCs). Using CMS FY2023 DRG weights/LOS benchmarks and hospital cost assumptions, the model estimates net margin per discharge and scales results to total net margin and volume. The output is delivered as a Power BI dashboard with scenario modeling to support operational and strategic decision-making.
 
 ---
 
@@ -164,24 +164,13 @@ I used Python to ingest, clean, and transform CMS public datasets (e.g., Medicar
  **Excel — Financial model & scenario engine**
 Excel served as the financial modeling layer where CMS inputs were translated into profitability metrics. The workbook calculates net margin per discharge and aggregates results to total margin and volume. It also contains the scenario assumptions and logic used in the dashboard.
 
-**What Excel did**
-- Built DRG-level profitability logic (payment and cost per admission)
-- Modeled cost structure assumptions (fixed cost per admit, variable cost per day)
-- Created scenario levers:
-  - **Scenario 1:** 8% discharge volume decline
-  - **Scenario 2:** 0.5-day average LOS reduction
-- Produced clean output tables that Power BI consumes
 
  **Power BI — dashboard & decision support**
 Power BI was used to turn model outputs into an executive-facing, interactive dashboard. The report highlights margin concentration, discharge volume patterns, and scenario impacts by Major Diagnostic Category (MDC) to support strategic decision-making.
 
-**What Power BI did**
-- Built KPI cards and MDC-level profitability/volume visuals
-- Enabled drill-down and filtering (e.g., MED vs SURG, MDC group)
-- Compared baseline vs scenario outcomes and surfaced sensitivity/risk
 
 
-**9. Why This Project Matters**
+**10. Why This Project Matters**
 
 This project was built to reflect real healthcare finance work, demonstrating CMS-faithful reimbursement logic, cost structure awareness, scenario-driven thinking, and storytelling. Most importantly, it shows the ability to bridge operations, finance, and strategy in a healthcare context.
 
